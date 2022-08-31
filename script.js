@@ -4,6 +4,7 @@ function turn(element) {
 
 function ampliar(element) {
 	element.classList.toggle("ampliada");
+	element.classList.toggle("oculta");
 }
 
 new URLSearchParams(window.location.search).forEach((value, name) => {

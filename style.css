@@ -128,6 +128,10 @@ input[type="radio"]:checked + label > img {
     right: 5%;
 }
 
+.oculta {
+    content: url("oculta.png");    
+}
+
 /***TABLERO***/
 
 .tablero {
